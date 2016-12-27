@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="js/mui.min.js"></script>
+	<script src="js/jquery-2.1.0.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/Tel_info.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a id="return" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<a id="search" class="mui-icon mui-icon-search mui-pull-right"></a>
+		<h1 class="mui-title">通讯录</h1>
+	</header>
+	<div class="tel_body" id="tel_body">
+		<div class="tel_body_left">
+			<div class="mui-card">
+				<ul class="mui-table-view" id="dept">
+
+				</ul>
+			</div>
+		</div>
+		<div class="tel_body_right">
+			<ul class="mui-table-view" id="User_Info">
+
+			</ul>
+		</div>
+	</div>
+	<div class="tel_search" style="display:none;">
+		<div class="mui-input-row mui-search">
+			<input type="search" class="mui-input-clear" placeholder="请输入部门代码、分机、中/英文名查询" style="height:40px;">
+		</div>
+		<div class="search_info">
+			<ul class="mui-table-view" id="search_info">
+			</ul>
+		</div>
+	</div>
+</body>
+<script src="./js/bundle.js"></script>
+</html>

@@ -1,0 +1,61 @@
+.tel_body{	
+	height: 100%;
+	width: 100%;
+	margin-top: 45px;
+}
+.tel_body .tel_body_left{
+	float: left;
+	width: 50%;
+	height:100%;
+	overflow-y:auto;
+}
+.tel_body .tel_body_right{
+	float: right;
+	width: 50%;
+	height:100%;
+	overflow-y:auto;
+}
+.user_body{
+	margin-top:45px;
+}
+.user_body .mui-table-view .list_head{
+	margin-top:1px;
+	margin-bottom:20px;
+}
+.user_body .mui-table-view .mui-table-view-cell label{
+	float:left;
+}
+.first_dept{
+	font-size:14px;
+}
+.tel_search{
+	margin-top: 45px;
+	animation: myfirst 150ms;
+	-moz-animation: myfirst 150ms;	/* Firefox */
+	-webkit-animation: myfirst 150ms;	/* Safari 和 Chrome */
+	-o-animation: myfirst 150ms;	/* Opera */
+}
+
+@keyframes myfirst
+{
+from {margin-top: 0;}
+to {margin-top: 45px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {margin-top: 0;}
+to {margin-top: 45px;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {margin-top: 0;}
+to {margin-top: 45px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {margin-top: 0;}
+to {margin-top: 45px;}
+}
